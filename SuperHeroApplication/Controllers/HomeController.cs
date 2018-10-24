@@ -26,5 +26,12 @@ namespace SuperHeroApplication.Controllers
 
             return View();
         }
+
+        public ActionResult SuperHero()
+        {
+            ViewBag.Message = "Superhero list here";
+
+            return View();
+        }
     }
 }

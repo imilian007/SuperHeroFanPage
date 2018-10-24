@@ -17,6 +17,7 @@ namespace SuperHeroApplication.Controllers
         // GET: SuperHero/Details/5
         public ActionResult Details(int id)
         {
+            ViewData.All();
             return View();
         }
 
